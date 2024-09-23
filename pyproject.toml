@@ -1,9 +1,12 @@
 [tool.poetry]
-name = "app"
+name = "devsearch"
 version = "0.1.0"
 description = "A website for finding developers based on their skills and projects"
 authors = ["Ryan Partridge <rpartridge101@gmail.com>"]
 readme = "README.md"
+
+[tool.poetry.scripts]
+run-dev = "scripts.run:run_dev"
 
 [tool.poetry.dependencies]
 python = "^3.12"
